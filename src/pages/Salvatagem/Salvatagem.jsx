@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Salvatagem.module.css';
-import salvatagemBanner from '../../assets/images/Salvatagem.png'
+import salvatagemBanner from '../../assets/images/salvatagem.png'
 
 const salvatagemData = [
   {
