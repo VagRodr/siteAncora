@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  /* Cores */
+
+  --color-primary:#354f4b ;
+  --color-back-card:  #354f4bb7 ; 
+  --color-secondary: #6495ed;          
+  --color-background: #eef6fb;         
+  --color-dark: rgb(3, 3, 63);               
+  --color-white: #ffffff;               
+  
+  /* Fontes */
+  --font-primary: "Open Sans", serif;
+  --font-secondary: "Inter", sans-serif;
+
+  /* Espaçamentos */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+  
+  /* Borda e sombras */
+  --border-radius: 8px;
+  --box-shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-primary);
+  background-color: var(--color-background);
+  letter-spacing: 1px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3 {
+  color: var(--color-primary);
+  margin: 0 0 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}

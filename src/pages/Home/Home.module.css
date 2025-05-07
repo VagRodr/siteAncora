@@ -1,0 +1,41 @@
+
+.Banner{
+ object-fit: cover;
+ 
+}
+.Banner img{
+  width:100%;
+  
+}
+.intro {
+  text-align: center;
+ 
+}
+
+.intro h1{
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin: 2rem 0 ;
+  font-weight: 800;
+ 
+}
+
+.intro p{
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  color: rgb(3, 3, 63);
+  letter-spacing: 0.1rem;
+}
+
+.carouselSection {
+ padding:4rem 0;
+}
+.carouselSection h2{
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  padding: 2rem 0 0 0;
+  border-top: 2px solid #354f4b;
+
+}

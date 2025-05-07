@@ -1,0 +1,34 @@
+.carouselContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carouselItem {
+  text-align: center;
+  padding: var(--spacing-md);
+  transition: transform 0.3s ease;
+}
+
+.carouselItem:hover {
+  transform: scale(1.02);
+}
+
+.carouselImage {
+  width: 100%;
+  height: 400px; /* Altura fixa para uniformizar as imagens */
+  object-fit: cover; /* Garante que a imagem cubra a área definida */
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.carouselImage:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
+}
+
+.carouselTitle {
+  margin-top: var(--spacing-sm);
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}

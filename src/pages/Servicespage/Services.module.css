@@ -1,0 +1,48 @@
+.services {
+    padding: 16px;
+  }
+  .Banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .intro h1 {
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+  
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-dark);
+  }
+  
+  .servicesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+    padding: 2rem 0;
+  }
+  
+  .serviceSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
