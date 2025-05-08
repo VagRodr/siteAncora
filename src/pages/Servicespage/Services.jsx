@@ -1,5 +1,5 @@
 import React from 'react';
-import ServiceCard from '../../components/shared/ServiceCard/ServiceCard'; 
+import ServiceCard from '../../components/Shared/ServiceCard/ServiceCard'; 
 import styles from './Services.module.css';
 // Imagens exemplo png
 import servicosBanner from '../../assets/images/services.png'
