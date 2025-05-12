@@ -2,6 +2,7 @@
 import React from 'react';
 import Carousel from '../../components/Carousel/Carousel';
 import styles from './Home.module.css';
+import NextPage from '../../components/NextPage/NextPage';
 // Essas imagens são exemplos e nao são svg. 
 import despachadoriaImg from '../../assets/images/despachadoria.png';
 import adesivosImg from '../../assets/images/adesivos.png';
@@ -41,6 +42,7 @@ const Home = () => {
             Conheçam Nossos Serviços
           </h2>
           <Carousel services={services} />
+        <NextPage link='/about' frase='Venha nos Conhecer Melhor' />
         </section>
       </section>
     </>

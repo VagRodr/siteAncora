@@ -1,6 +1,7 @@
 import React from 'react';
 import ServiceCard from '../../components/Shared/ServiceCard/ServiceCard'; 
 import styles from './Services.module.css';
+import NextPage from '../../components/NextPage/NextPage';
 // Imagens exemplo png
 import servicosBanner from '../../assets/images/services.png'
 import despachadoriaImg from '../../assets/images/despachadoria.png';
@@ -59,6 +60,7 @@ const Services = () => {
             </article>
           ))}
         </section>
+        <NextPage link='/salvatagem' frase='Confira os Equipamentos de Salvatagem Necessários' />
       </section>
     </>
   );

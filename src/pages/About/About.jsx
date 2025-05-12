@@ -1,5 +1,5 @@
 import React from 'react';
-
+import NextPage from '../../components/NextPage/NextPage';
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
 import teamBanner from '../../assets/images/equipe.png';
@@ -57,6 +57,7 @@ const About = () => {
             ))}
           </div>
         </article>
+        <NextPage link='/services' frase='Conheça os Serviços que Oferecemos' />
       </section>
    
     </>
