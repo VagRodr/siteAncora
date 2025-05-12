@@ -3,7 +3,11 @@
     background-color: #354f4b; /* Azul marinho */
     color: #fff;
     padding: 16px;
-   
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #fff;
   }
   
   .content {
@@ -36,4 +40,7 @@
     font-size: 0.9rem;
     letter-spacing: 1px;
   }
-  
+
+  .rights p {
+    padding: 5px;
+  }
