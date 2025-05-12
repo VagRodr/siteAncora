@@ -10,17 +10,37 @@ import carlosImg from '../../assets/images/carlos.png';
 
 const team = [
   {
-    name: 'João Silva',
+    name: 'Luciano Andrade',
     photo: joaoImg,
     bio: 'João é especialista em logística marítima e possui 10 anos de experiência.',
   },
   {
-    name: 'Maria Oliveira',
+    name: 'Luciene Andrade',
     photo: mariaImg,
     bio: 'Maria atua na área de adesivagem e traz soluções criativas para o mercado.',
   },
   {
-    name: 'Carlos Souza',
+    name: 'Pedro Andrade',
+    photo: carlosImg,  
+    bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
+  },
+  {
+    name: 'Vagner Rodrigues',
+    photo: carlosImg,  
+    bio: 'Biólogo com ampla experiência em Unidades de Conservação, atua no Licenciamento Ambiental e sinalização náutica',
+  },
+  {
+    name: 'Luciana Lafaiete',
+    photo: mariaImg,  
+    bio: 'Bióloga com experiência em Licenciamento Ambiental e atua no setor de gerenciamento de processos da Âncora Despachadoria.',
+  },
+  {
+    name: 'Eduardo Lafaiete',
+    photo: carlosImg,  
+    bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
+  },
+  {
+    name: 'Rafael',
     photo: carlosImg,  
     bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
   },
@@ -43,9 +63,22 @@ const About = () => {
         <article className={styles.content}>
           <h1>Sobre Nós</h1>
           <p>
-            A Âncora Serviços Marítimos nasceu com a missão de oferecer soluções inovadoras e de alta qualidade no setor marítimo.
-            Nossa trajetória é marcada por compromisso com a excelência e a satisfação de nossos clientes. (Texto fictício, a ser alterado futuramente)
+            A Âncora Despachadoria está se aproximando de três décadas de serviços prestados ao mercado náutico, em Angra dos Reis e região.  Localizada na Marina Verolme, trabalhamos pelo apoio à segurança do tráfego aquaviário, com o propósito de servir bem.
           </p>
+          <p>
+            Com presença desde o início da Marina Verolme, nosso compromisso é proporcionar tranquilidade e segurança para que nossos clientes possam desfrutar plenamente da experiência náutica, contando com o suporte de uma equipe experiente e dedicada que conhece as particularidades da região e os requisitos legais do setor marítimo.
+          </p>
+          <p>Em nome de nossa família e colaboradores, agradecemos aos nossos clientes e amigos por toda a confiança e apoio depositados.</p>
+          <p>Convidamos você que ainda não conhece a Âncora. Vem nos visitar, tomar um café conosco, falar de náutica, de arquitetura, e fazer parte dos nossos próximos trinta anos!</p>
+        </article>
+        <article className={styles.principles}>
+          <h2>Missão</h2>
+          <p>Oferecer soluções náuticas com excelência e agilidade.</p>
+          <h2>Visão</h2>
+          <p>Ser referência em despachadoria marítima na Costa Verde e Rio de Janeiro.</p>
+          <h2>Valores</h2>
+          <p>Comprometimento, transparência, inovação e respeito ao cliente.</p>
+
         </article>
         
         {/* Seção da Equipe */}
