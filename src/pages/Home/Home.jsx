@@ -31,14 +31,14 @@ const Home = () => {
         </figure>
         <article className={styles.intro}>
         
-          <h1>Bem-vindo(a) à Âncora Náutica e arquitetura</h1>
+          <h1>Olá Navegantes, bem-vindos à Âncora Despachadoria Marítima.</h1>
           <p>
-            Somos especialistas em serviços marítimos, oferecendo soluções em despachadoria, adesivos náuticos e licenciamento ambiental.
+            Com mais de 30 anos de atuação no mercado náutico, oferecemos soluções inteligentes em despachadoria marítima, sinalização de embarcações com adesivos náuticos e licenciamento ambiental.
           </p>
         </article>
         <section className={styles.carouselSection}>
           <h2>
-            Conheça os nossos serviços
+            Conheçam Nossos Serviços
           </h2>
           <Carousel services={services} />
         </section>

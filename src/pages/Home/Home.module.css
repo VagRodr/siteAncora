@@ -13,10 +13,11 @@
 }
 
 .intro h1{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 1px;
   margin: 2rem 0 ;
   font-weight: 800;
+  padding: 20px;
  
 }
 
@@ -33,9 +34,10 @@
 }
 .carouselSection h2{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   padding: 2rem 0 0 0;
   border-top: 2px solid #354f4b;
+  font-weight: bold;
 
 }
