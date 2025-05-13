@@ -8,7 +8,7 @@ const salvatagemData = [
     items: [
       <strong>EMBARCAÇÕES MIÚDAS - (Embarcações com até 6 m de comprimento)</strong> ,
       "- COLETES SALVA-VIDAS",
-      "- HABILIAÇÃO (mínima) - Veleiro, Arrais ou Motonauta (conforme o tipo de embarcação)",
+      "- HABILITAÇÃO (mínima) - Veleiro, Arrais ou Motonauta (conforme o tipo de embarcação)",
       "- LUZES DE NAVEGAÇÃO - (em navegação noturna) RIPEAM-Parte C",
       "- MARCAÇÕES NO CASCO (nome nos dois bordos, porto e nº de inscrição) - (somente o nº de inscrição)",
       "- TERMO DE RESPONSABILIDADE - (dispensado para as embarcações Isentas de inscrição)",
@@ -27,7 +27,7 @@ const salvatagemData = [
       "- BOMBA D ESGOTO - 01 unidade para embarcações com até 12m; para embarcações com comprimento igual ou maior que 12m: 01 manual e 02 elétricas ou acoplada ao motor",
       "- COLETES SALVA-VIDAS",
       "- EXTINTOR DE INCÊNDIO",
-      "- HABILIAÇÃO (mínima) - Arrais Amador",
+      "- HABILITAÇÃO (mínima) - Arrais Amador",
       "- LANTERNA PORTÁTIL - 01 unidade",
       "- LUZES DE NAVEGAÇÃO - RIPEAM - Parte C",
       "- MARCAÇÕES NO CASCO (nome nos dois bordos, porto e nº de inscrição)",
@@ -53,7 +53,7 @@ const salvatagemData = [
       "- COLETES SALVA-VIDAS - Classe II",
       "- EXTINTOR DE INCÊNDIO",
       "- SISTEMA GLOBAL DE NAVEGAÇÃO - GNSS - (01 unidade)",
-      "- HABILIAÇÃO (mínima) - Mestre Amador",
+      "- HABILITAÇÃO (mínima) - Mestre Amador",
       "- LANTERNA PORTÁTIL - 01 unidade",
       "- MATERIAIS E MEDICAMENTOS DE PRIMEIROS SOCORROS - a partir de 15 pessoas a bordo",
       "- QUADROS",
@@ -74,7 +74,9 @@ const Salvatagem = () => {
         <figure className={styles.banner}>
           <img src={salvatagemBanner} alt="" />
         </figure>
-        <h1 className={styles.pageTitle}>Salvatagem</h1>
+        <h1 className={styles.pageTitle}>Equipamentos de Salvatagem Obrigatórios para Embarcações</h1>
+        <h3>A segurança na navegação é uma prioridade para a Âncora Despachadoria Marítima.</h3>
+        <p>A Marinha do Brasil estabelece normas específicas para os equipamentos obrigatórios de salvatagem, conforme o tipo de navegação e o porte da embarcação. Abaixo, detalhamos os itens exigidos para diferentes categorias.</p>
         {salvatagemData.map((section, index) => (
           <section key={index} className={styles.section}>
             <h2 className={styles.topicTitle}>{section.topic}</h2>
