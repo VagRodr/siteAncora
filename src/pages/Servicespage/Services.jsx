@@ -12,7 +12,7 @@ const servicesData = [
   {
     title: 'Despachadoria Marítima',
     description:
-      'Serviço especializado para resolver toda a burocracia e documentação, garantindo uma regularização ágil e segura.',
+      'Regularize sua embarcação com agilidade e segurança.',
     items: [
       'Inscrição Inicial',
       'Transferência de propriedade',
@@ -26,14 +26,14 @@ const servicesData = [
   {
     title: 'Adesivos Náuticos',
     description:
-      'Soluções personalizadas para adesivagem de embarcações com alta durabilidade e qualidade visual.',
+      'Personalize sua embarcação com qualidade e durabilidade.',
     items: ['Adesivos em vinil', 'Adesivos resinados'],
     image: adesivosImg
   },
   {
     title: 'Licenciamento Ambiental',
     description:
-      'Serviços para garantir a regularidade ambiental de imóveis e empreendimentos, respeitando as normas vigentes.',
+      'Garanta a regularidade ambiental do seu imóvel ou empreendimento.',
     items: ['Legalização de imóveis', 'Legalização de empreendimentos', 'Outorga de água'],
     image: licenciamentoImg
   }
@@ -49,7 +49,7 @@ const Services = () => {
         <article className={styles.intro}>
           <h1>Serviços</h1>
           <p>
-            Conheça os serviços que oferecemos para atender todas as necessidades no setor marítimo.
+            Na Âncora, cuidamos da burocracia para que você aproveite o melhor da navegação. Atendemos na Marina Verolme, em toda a Costa Verde e na capital do Rio de Janeiro, indo até você sempre que necessário. Aguardamos seu contato.
           </p>
         </article>
         <section className={styles.servicesList}>
