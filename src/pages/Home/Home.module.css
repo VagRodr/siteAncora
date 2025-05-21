@@ -13,12 +13,12 @@
 }
 
 .intro h1{
-  font-size: 2.2rem;
-  letter-spacing: 1px;
-  margin: 2rem 0 ;
+  font-size: 2rem;
+  letter-spacing: 0.01rem;
+  margin: 0.5rem 0 ;
   font-weight: 800;
-  padding: 20px;
- 
+  padding: 10px;
+  margin: 0 100px;
 }
 
 .intro p{
@@ -26,7 +26,8 @@
   font-weight: 500;
 
   color: rgb(3, 3, 63);
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.01rem;
+  margin: 0 200px;
 }
 
 .carouselSection {
@@ -34,8 +35,8 @@
 }
 .carouselSection h2{
   text-align: center;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 1.6rem;
+  letter-spacing: 0.01rem;
   padding: 2rem 0 0 0;
   border-top: 2px solid #354f4b;
   font-weight: bold;
