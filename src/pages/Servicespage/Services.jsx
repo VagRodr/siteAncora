@@ -3,10 +3,10 @@ import ServiceCard from '../../components/Shared/ServiceCard/ServiceCard';
 import styles from './Services.module.css';
 import NextPage from '../../components/NextPage/NextPage';
 // Imagens exemplo png
-import servicosBanner from '../../assets/images/services.png'
-import despachadoriaImg from '../../assets/images/despachadoria.png';
-import adesivosImg from '../../assets/images/adesivos.png';
-import licenciamentoImg from '../../assets/images/licenciamento.png';
+import servicosBanner from '../../assets/images/bannerServicos.svg'
+import despachadoriaImg from '../../assets/images/despachadoria.svg';
+import adesivosImg from '../../assets/images/adesivos.svg';
+import licenciamentoImg from '../../assets/images/licenciamento.svg';
 
 const servicesData = [
   {
