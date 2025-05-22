@@ -1,6 +1,6 @@
 /* src/components/Footer/Footer.module.css */
 .footer {
-    background-color: #354f4b; /* Azul marinho */
+    background-image: url("../../assets/images/backgroundFooter.svg");
     color: #fff;
     padding: 16px;
   }
