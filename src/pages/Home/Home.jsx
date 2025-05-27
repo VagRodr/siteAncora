@@ -7,7 +7,7 @@ import NextPage from '../../components/NextPage/NextPage';
 import despachadoriaImg from '../../assets/images/carrosselDespachadoria.svg';
 import adesivosImg from '../../assets/images/carrosselAdesivo.svg';
 import licenciamentoImg from '../../assets/images/carrosselLicenciamento.svg';
-import Banner from '../../assets/images/banner_drone.png'
+import Banner from '../../assets/images/bannerHome.svg'
 const services = [
   {
     title: 'Despachadoria Marítima',

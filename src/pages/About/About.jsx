@@ -2,7 +2,7 @@ import React from 'react';
 import NextPage from '../../components/NextPage/NextPage';
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
-import teamBanner from '../../assets/images/bannerSobreNos.svg';
+import teamBanner from '../../assets/images/bannerAbout.svg';
 import joaoImg from '../../assets/images/joao.png';
 import mariaImg from '../../assets/images/maria.png';
 import carlosImg from '../../assets/images/carlos.png';
