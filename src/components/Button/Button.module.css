@@ -1,0 +1,29 @@
+.button {
+    text-align: center;
+    padding: 0.9rem;
+    color:white;
+    background-color: #353B51;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.button:hover {
+    color: yellow;
+    transform: translateY(-7px);
+    transition-duration: 0.8s;
+    box-shadow:0px 0px 5px 5px aqua;
+    background: darkgreen;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+section .button {
+    display: block;
+    justify-content: center;
+    margin: 30px auto;
+}

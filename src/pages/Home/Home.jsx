@@ -2,7 +2,7 @@
 import React from 'react';
 import Carousel from '../../components/Carousel/Carousel';
 import styles from './Home.module.css';
-import NextPage from '../../components/NextPage/NextPage';
+import Button from '../../components/Button/Button'
 // Essas imagens são exemplos e nao são svg. 
 import despachadoriaImg from '../../assets/images/carrosselDespachadoria.svg';
 import adesivosImg from '../../assets/images/carrosselAdesivo.svg';
@@ -34,7 +34,7 @@ const Home = () => {
         
           <h1>Olá Navegantes, bem-vindos à Âncora Despachadoria Marítima</h1>
           <p>
-            Com mais de 30 anos de atuação no mercado náutico, oferecemos soluções inteligentes em despachadoria marítima, sinalização de embarcações com adesivos náuticos e licenciamento ambiental.
+            Com três décadas de experiência no setor náutico, somos referência em <strong>legalização de embarcações, sinalização náutica e licenciamento ambiental.</strong><br/><br/> Atuamos em toda Costa Verde e no Rio de Janeiro, com atendimento a embarcações de todos os portes com <strong>eficiência, sigilo e excelência técnica</strong>, apoiando marinheiros e proprietários em cada etapa do processo.
           </p>
         </article>
         <section className={styles.carouselSection}>
@@ -42,8 +42,10 @@ const Home = () => {
             Conheçam Nossos Serviços
           </h2>
           <Carousel services={services} />
-        <NextPage link='/about' frase='Venha nos Conhecer Melhor' />
         </section>
+      </section>
+      <section>
+        <Button text="Nosso Compromisso é Servir Bem!" to="/about" />
       </section>
     </>
   );

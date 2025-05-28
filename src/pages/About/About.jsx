@@ -1,5 +1,5 @@
 import React from 'react';
-import NextPage from '../../components/NextPage/NextPage';
+import Button from '../../components/Button/Button'
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
 import teamBanner from '../../assets/images/bannerAbout.svg';
@@ -60,24 +60,24 @@ const About = () => {
         </section>
         
         {/* Conteúdo "Sobre Nós" */}
-        <article className={styles.content}>
+        <article className={styles.content} id="topAbout">
           <h1>Sobre Nós</h1>
           <p>
-            A Âncora Despachadoria está se aproximando de três décadas de serviços prestados ao mercado náutico, em Angra dos Reis e região.  Localizada na Marina Verolme, trabalhamos pelo apoio à segurança do tráfego aquaviário, com o propósito de servir bem.
+            Desde 1995, a Âncora Despachadoria Marítima vem construindo uma história sólida no setor náutico em Angra dos Reis e na Costa Verde do Rio de Janeiro. Estamos na Marina Verolme desde sua fundação e crescemos ao lado dela, sempre com o propósito de servir bem, com tranquilidade, agilidade e suporte técnico de confiança para quem navega. Cuidamos da burocracia para você.
           </p>
           <p>
-            Com presença desde o início da Marina Verolme, nosso compromisso é proporcionar tranquilidade e segurança para que nossos clientes possam desfrutar plenamente da experiência náutica, contando com o suporte de uma equipe experiente e dedicada que conhece as particularidades da região e os requisitos legais do setor marítimo.
+            Nossa equipe combina experiência, conhecimento das normas e profundo respeito pelos clientes — sejam eles marinheiros ou proprietários de embarcações.
           </p>
-          <p>Em nome de nossa família e colaboradores, agradecemos aos nossos clientes e amigos por toda a confiança e apoio depositados.</p>
-          <p>Convidamos você que ainda não conhece a Âncora. Vem nos visitar, tomar um café conosco, falar de náutica, de arquitetura, e fazer parte dos nossos próximos trinta anos!</p>
+          <p>Hoje, nosso atendimento chega onde você estiver precisando, prezando sempre pela excelência, sigilo e clareza em cada processo. Seja para regularizar sua embarcação, cuidar da sinalização náutica ou atender às exigências ambientais, você pode contar com a Âncora para manter sua navegação segura, legal e em dia.</p>
+          <p><strong>Nossa família e equipe agradecem a confiança de cada cliente que faz parte dessa história. Se você ainda não nos conhece, seja bem vindo a estar conosco nos próximos 30 anos.</strong></p>
         </article>
         <article className={styles.principles}>
           <h2>Missão</h2>
-          <p>Oferecer soluções náuticas com excelência e agilidade.</p>
+          <p>Oferecer soluções náuticas com <strong>excelência, agilidade e confiança,</strong> prestando serviços de forma ética, precisa e comprometida com a privacidade e a satisfação de cada cliente.</p>
           <h2>Visão</h2>
-          <p>Ser referência em despachadoria marítima na Costa Verde e Rio de Janeiro.</p>
+          <p>Ser referência em <strong>despachadoria marítima na Costa Verde e no Rio de Janeiro,</strong> reconhecida pela <strong>qualidade técnica, discrição no atendimento e compromisso com resultados seguros.</strong></p>
           <h2>Valores</h2>
-          <p>Comprometimento, transparência, inovação e respeito ao cliente.</p>
+          <p><strong>Confiança, Confidencialidade, Comprometimento, transparência, inovação e respeito ao cliente.</strong></p>
 
         </article>
         
@@ -90,7 +90,9 @@ const About = () => {
             ))}
           </div>
         </article>
-        <NextPage link='/services' frase='Conheça os Serviços que Oferecemos' />
+      </section>
+      <section>
+        <Button text="Conheça Nossos Serviços!" to="/services" />
       </section>
    
     </>
