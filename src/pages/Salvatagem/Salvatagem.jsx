@@ -75,7 +75,7 @@ const Salvatagem = () => {
           <img src={salvatagemBanner} alt="" />
         </figure>
         <h1 className={styles.pageTitle}>Equipamentos de Salvatagem Obrigatórios para Embarcações</h1>
-        <h3>A segurança na navegação é uma prioridade para a Âncora Despachadoria Marítima.</h3>
+        <p>A segurança na navegação é uma prioridade para a Âncora Despachadoria Marítima.</p>
         <p>A Marinha do Brasil estabelece normas específicas para os equipamentos obrigatórios de salvatagem, conforme o tipo de navegação e o porte da embarcação. Abaixo, detalhamos os itens exigidos para diferentes categorias.</p>
         {salvatagemData.map((section, index) => (
           <section key={index} className={styles.section}>
