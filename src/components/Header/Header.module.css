@@ -44,12 +44,12 @@
   .navList li a {
     color: #354f4b; 
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: color 0.3s ease;
   }
   
   .navList li a:hover {
-    color: #7b7979;
+    color: #04f704;
   }
   
   /* Botões de menu (mobile) */
