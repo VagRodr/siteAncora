@@ -5,7 +5,7 @@
     background: rgba(255, 255, 255, 0.3); /* Efeito vidro */
     backdrop-filter: blur(10px);
     transition: background 0.3s ease, box-shadow 0.3s ease;
-    padding: 0.5rem 1rem; /* Espaçamento de 1rem nas laterais */
+    /*padding: 0.5rem 1rem; /* Espaçamento de 1rem nas laterais */
   }
   
   .scrolled {

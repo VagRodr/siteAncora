@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 import { FiMenu, FiX } from 'react-icons/fi';
-import Logo from '../../assets/images/ancoraLogo.svg';
+import Logo from '../../assets/images/logoHorizontal.svg';
 import Button from '../../components/Shared/Button/Button'
 
 function Header() {

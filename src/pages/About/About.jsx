@@ -83,7 +83,7 @@ const About = () => {
         
         {/* Seção da Equipe */}
         <article className={styles.teamSection}>
-          <h2>Conheça a nossa equipe</h2>
+          <h2>Conheça Nossa Equipe</h2>
           <div className={styles.teamList}>
             {team.map((member, index) => (
               <TeamMember key={index} member={member} alternate={index % 2 !== 0} />

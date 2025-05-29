@@ -40,7 +40,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   background-color: var(--color-background);
   letter-spacing: 1px;
 }

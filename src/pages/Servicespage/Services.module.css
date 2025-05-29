@@ -15,15 +15,20 @@
   
   .intro h1 {
     padding: 1rem 0 0 0;
-    font-size: 2rem;
-  
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.01rem;
+    margin: 2rem 0.5rem 0.1rem 0.5rem ;
   }
   
   .intro p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: var(--color-dark);
-    margin: 3rem;
+    margin: 0 200px;
+    text-align: center;
+    font-weight: 500;
   }
   
   .servicesList {
@@ -41,7 +46,7 @@
   }
   
   .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--color-primary);
     text-align: center;
     letter-spacing: 1px;
