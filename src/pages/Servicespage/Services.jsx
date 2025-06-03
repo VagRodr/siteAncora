@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ServiceCard from '../../components/Shared/ServiceCard/ServiceCard'; 
 import styles from './Services.module.css';
 import Button from '../../components/Button/Button'
@@ -40,6 +40,12 @@ const servicesData = [
 ];
 
 const Services = () => {
+  
+    useEffect(() => {
+      // Rola para o topo da página quando o componente é montado
+      window.scrollTo(0, 0);
+    }, []);
+
   return (
     <>
       <section className={styles.services}>

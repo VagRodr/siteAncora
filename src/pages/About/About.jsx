@@ -1,4 +1,5 @@
-import React from 'react';
+/*import React from 'react';*/
+import React, { useEffect } from 'react';
 import Button from '../../components/Button/Button'
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
@@ -50,6 +51,12 @@ const team = [
 
 
 const About = () => {
+
+  useEffect(() => {
+    // Rola para o topo da página quando o componente é montado
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
     
@@ -60,7 +67,7 @@ const About = () => {
         </section>
         
         {/* Conteúdo "Sobre Nós" */}
-        <article className={styles.content} id="topAbout">
+        <article className={styles.content}>
           <h1>Sobre Nós</h1>
           <p>
             Desde 1995, a Âncora Despachadoria Marítima vem construindo uma história sólida no setor náutico em Angra dos Reis e na Costa Verde do Rio de Janeiro. Estamos na Marina Verolme desde sua fundação e crescemos ao lado dela, sempre com o propósito de servir bem, com tranquilidade, agilidade e suporte técnico de confiança para quem navega. Cuidamos da burocracia para você.

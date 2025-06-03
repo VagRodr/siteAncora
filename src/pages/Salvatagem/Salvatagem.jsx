@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from './Salvatagem.module.css';
 import salvatagemBanner from '../../assets/images/bannerSalvatagem.svg'
 
@@ -68,6 +68,12 @@ const salvatagemData = [
 ];
 
 const Salvatagem = () => {
+
+ useEffect(() => {
+      // Rola para o topo da página quando o componente é montado
+      window.scrollTo(0, 0);
+    }, []);
+
   return (
     <>
       <section className={styles.salvatagem}>
