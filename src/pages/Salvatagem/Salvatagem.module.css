@@ -71,7 +71,7 @@
 }
 
 @media (max-width: 768px) {
-  .section {
+  .section, .salvatagem p {
     width: 90%;
 }
 
