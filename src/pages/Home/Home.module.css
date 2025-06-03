@@ -43,7 +43,7 @@
 }
 
   @media (max-width: 768px) {
-    .intro {
+    .intro p{
       width: 90%;
     }
 
