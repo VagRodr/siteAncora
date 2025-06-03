@@ -16,7 +16,7 @@
 
 .pageTitle {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.01rem;
   margin-bottom: 32px;
   text-transform: uppercase;
@@ -26,9 +26,10 @@
 .salvatagem p {
   font-size: 1.2rem;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.01rem;
-  margin: 10px 300px;
+  margin: 10px auto;
+  width: 65%;
   
   /*Formatação Anterior*/
   /*text-align: center;
@@ -38,7 +39,8 @@
 
 .section {
 
-  margin: 48px 180px;
+  margin: 48px auto;
+  width: 70%;
   /* Efeito vidro: fundo translúcido, blur, e borda sutil */
   background:transparent;
   backdrop-filter: blur(10px);
@@ -66,4 +68,14 @@
   font-size: 1.2rem;
   letter-spacing: 0.01rem;
   color: var--color-primary; 
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 90%;
+}
+
+  .pageTitle {
+    font-size: 1.4rem;
+  }
 }

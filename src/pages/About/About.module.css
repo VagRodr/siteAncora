@@ -13,7 +13,8 @@
 
 .content {
   text-align: center;
- 
+  margin: 0 auto;
+  width: 75%;
 }
 
 .content h1 {
@@ -30,9 +31,7 @@
   line-height: 1.6;
   color: var(--color-dark);
   letter-spacing: 1px;
-  margin: 0 auto;
-  width: 70%;
-  text-align: left;
+  text-align: center;
   padding: 5px;
   font-weight: 500;
   letter-spacing: 0.01rem;
@@ -44,7 +43,7 @@
   color: var(--color-dark);
   letter-spacing: 1px;
   margin: 45px auto;
-  width: 70%;
+  width: 75%;
   text-align: left;
   padding: 5px;
 }
@@ -73,4 +72,10 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .content, .principles  {
+    width: 90%;
+  }
 }

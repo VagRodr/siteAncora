@@ -67,7 +67,7 @@ const Services = () => {
           ))}
         </section>
       </section>
-      <section>
+      <section className={styles.btn}>
         <Button text="Confira os Equipamentos de Salvatagem Necessários!" to="/salvatagem" />
       </section>
     </>
