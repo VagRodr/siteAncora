@@ -4,15 +4,18 @@ import Button from '../../components/Button/Button'
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
 import teamBanner from '../../assets/images/bannerAbout.svg';
-import joaoImg from '../../assets/images/joao.png';
-import mariaImg from '../../assets/images/maria.png';
+import lucianoImg from '../../assets/images/luciano.svg';
+import vagnerImg from '../../assets/images/vagner.svg';
+import lucianaImg from '../../assets/images/luciana.svg';
+import eduardoImg from '../../assets/images/eduardo.svg';
 import carlosImg from '../../assets/images/carlos.png';
+import mariaImg from '../../assets/images/maria.png';
 
 
 const team = [
   {
     name: 'Luciano Andrade',
-    photo: joaoImg,
+    photo: lucianoImg,
     bio: 'João é especialista em logística marítima e possui 10 anos de experiência.',
   },
   {
@@ -27,17 +30,17 @@ const team = [
   },
   {
     name: 'Vagner Rodrigues',
-    photo: carlosImg,  
+    photo: vagnerImg,  
     bio: 'Biólogo com ampla experiência em Unidades de Conservação, atua no Licenciamento Ambiental e sinalização náutica',
   },
   {
     name: 'Luciana Lafaiete',
-    photo: mariaImg,  
+    photo: lucianaImg,  
     bio: 'Bióloga com experiência em Licenciamento Ambiental e atua no setor de gerenciamento de processos da Âncora Despachadoria.',
   },
   {
     name: 'Eduardo Lafaiete',
-    photo: carlosImg,  
+    photo: eduardoImg,  
     bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
   },
   {
