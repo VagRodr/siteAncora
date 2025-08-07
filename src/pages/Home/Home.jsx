@@ -4,10 +4,10 @@ import Carousel from '../../components/Carousel/Carousel';
 import styles from './Home.module.css';
 import Button from '../../components/Button/Button'
 // Essas imagens são exemplos e nao são svg. 
-import despachadoriaImg from '../../assets/images/carrosselDespachadoria.svg';
-import adesivosImg from '../../assets/images/carrosselAdesivo.svg';
-import licenciamentoImg from '../../assets/images/carrosselLicenciamento.svg';
-import Banner from '../../assets/images/bannerHome.svg'
+import despachadoriaImg from '../../assets/images/r_carrosselDespachadoria.jpg';
+import adesivosImg from '../../assets/images/r_carrosselAdesivo.jpg';
+import licenciamentoImg from '../../assets/images/r_carrosselLicenciamento.jpg';
+import Banner from '../../assets/images/r_bannerHome.jpg'
 const services = [
   {
     title: 'Despachadoria Marítima',

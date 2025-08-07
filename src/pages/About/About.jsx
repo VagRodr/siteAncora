@@ -3,22 +3,21 @@ import React, { useEffect } from 'react';
 import Button from '../../components/Button/Button'
 import TeamMember from '../../components/TeamMember/TeamMember';
 import styles from './About.module.css';
-import teamBanner from '../../assets/images/bannerAbout.svg';
-import lucianoImg from '../../assets/images/luciano.svg';
-import vagnerImg from '../../assets/images/vagner.svg';
-import lucianaImg from '../../assets/images/luciana.svg';
-import eduardoImg from '../../assets/images/eduardo.svg';
-import carlosImg from '../../assets/images/carlos.png';
-import mariaImg from '../../assets/images/maria.png';
+import teamBanner from '../../assets/images/r_bannerAbout.jpg';
+import lucianoImg from '../../assets/images/r_luciano.jpg';
+import vagnerImg from '../../assets/images/r_vagner.jpg';
+import lucianaImg from '../../assets/images/r_luciana.jpg';
+import eduardoImg from '../../assets/images/r_eduardo.jpg';
+
 
 
 const team = [
   {
     name: 'Luciano Andrade',
     photo: lucianoImg,
-    bio: 'João é especialista em logística marítima e possui 10 anos de experiência.',
+    bio: 'Arquiteto, sócio Fundador da Âncora despachadoria. Com mais de 30 anos de experiência no ramo náutico',
   },
-  {
+  /*{
     name: 'Luciene Andrade',
     photo: mariaImg,
     bio: 'Maria atua na área de adesivagem e traz soluções criativas para o mercado.',
@@ -27,7 +26,7 @@ const team = [
     name: 'Pedro Andrade',
     photo: carlosImg,  
     bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
-  },
+  },*/
   {
     name: 'Vagner Rodrigues',
     photo: vagnerImg,  
@@ -41,11 +40,6 @@ const team = [
   {
     name: 'Eduardo Lafaiete',
     photo: eduardoImg,  
-    bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
-  },
-  {
-    name: 'Rafael',
-    photo: carlosImg,  
     bio: 'Carlos é responsável pelo licenciamento ambiental, garantindo o cumprimento das normas.',
   },
 ];

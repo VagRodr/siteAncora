@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import styles from './Salvatagem.module.css';
-import salvatagemBanner from '../../assets/images/bannerSalvatagem.svg'
+import salvatagemBanner from '../../assets/images/r_bannerSalvatagem.jpg'
 
 const salvatagemData = [
   {
